@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.moneyview.in/security-money-view-app
+note: >-
+  Moneyview is a consumer (B2C) fintech app with no public developer API surface;
+  there is no OpenAPI to assert cross-cutting API standards against. This file
+  records the security/compliance certifications the company publishes on its
+  public security page.
+standards:
+- id: iso-27001-2022
+  conforms: true
+  evidence: 'Security page states "ISO 27001:2022 Certified Information Security Management System"'
+- id: pci-dss
+  conforms: true
+  evidence: 'Security page states "PCI DSS Certified" - adheres to the Payment Card Industry Data Security Standard'
+compliance_program:
+  published: true
+  url: https://www.moneyview.in/security-money-view-app
+  certifications:
+  - ISO 27001:2022
+  - PCI DSS
