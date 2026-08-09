@@ -12,14 +12,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/money-view.png
 name: Money View
-description: 'Moneyview is an Indian consumer fintech platform offering a suite of
-  financial services including personal loans (up to Rs 10L), home loans, business
-  loans, loans against property, credit cards, fixed deposits, digital gold, motor
-  insurance, credit tracking, and UPI payments. The platform reports serving over 12
-  crore users across 18,400+ pincodes. Moneyview publishes ISO 27001:2022 and PCI DSS
-  certifications and a responsible vulnerability disclosure program, but exposes no
-  public developer API, developer portal, or OpenAPI surface. This profile was surfaced
-  as a portfolio company of Accel and enriched by the API Evangelist pipeline.'
+description: Moneyview is an Indian consumer fintech platform offering a suite of financial services including
+  personal loans (up to Rs 10L), home loans, business loans, loans against property, credit cards, fixed
+  deposits, digital gold, motor insurance, credit tracking, and UPI payments. The platform reports serving
+  over 12 crore users across 18,400+ pincodes. Moneyview publishes ISO 27001:2022 and PCI DSS certifications
+  and a responsible vulnerability disclosure program, but exposes no public developer API, developer portal,
+  or OpenAPI surface. This profile was surfaced as a portfolio company of Accel and enriched by the API
+  Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/money-view/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Consumer
@@ -67,8 +66,13 @@ common:
   url: conformance/money-view-conformance.yml
 - type: DomainSecurity
   url: security/money-view-domain-security.yml
+- type: LLMsTxt
+  name: Moneyview llms.txt
+  url: llms/money-view-llms.txt
 x-enrichment:
   date: '2026-07-20'
   status: minimal
   artifacts_added: 3
   pass: local-v1
+x-merged-from:
+- moneyview
